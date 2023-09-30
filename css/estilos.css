@@ -2,12 +2,10 @@
     color: black;
 }
 
-
-
 img {
     width: 100%;
     display: block;
-    }
+}
 
 h1 {
     color:black;
@@ -22,10 +20,8 @@ p {
     color: grey
 }
 
-section {
-    width: 550px;
+section { 
     border: 1px solid grey;
-    padding: 20px;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin: 30px 250px;
+    padding: 50px;
 }

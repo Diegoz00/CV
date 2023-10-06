@@ -1,5 +1,11 @@
 * {
     color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
 }
 
 img {
@@ -12,16 +18,34 @@ h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-align: center;
-    margin: 20px;
-    padding: 5px;
+    margin: 20px 0px;
+    padding: 5px px;
+}
+
+h4.card-title {
+    text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
+}
+
+h5 {
+    text-decoration:overline;
+    font: bold verdana, sans-serif;
 }
 
 p {
     color: grey
 }
 
-section { 
+#contacto { 
     border: 1px solid grey;
-    margin: 40px 200px;
-    padding: 50px;
+    width: auto;
+    margin: 50px 50px;
+    padding: 50px 25px;
+}
+
+#pie {
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    background-color: black;
 }

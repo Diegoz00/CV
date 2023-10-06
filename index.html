@@ -6,10 +6,16 @@
     <title>Kevin Gonzalez CV</title>
     <link rel="icon" type="image/x-icon" href="https://png.pngtree.com/png-clipart/20200701/original/pngtree-graduate-icon-design-illustration-png-image_5355518.jpg">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script> src="js/function.js"</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Kevin Gonzalez CV"/>
+    <meta property="og:type" content="Curriculum Vitae"/>
+    <meta property="og:url" content="http://diegoz00.github.com"/>
+    <meta property="og:image" content="https://randomuser.me/api/portraits/men/52.jpg"/>
+    <meta property="og:description" content="Curriculum Vitae - Experiencia y Educación de Kevin Gonzalez"/>
   </head>
-
 <body>
     <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
       <div class="container-fluid">
@@ -28,7 +34,7 @@
        <div style="width: 12rem; margin-top: -100px;">
         <img src="https://randomuser.me/api/portraits/men/52.jpg" style="border-radius: 100px;" class="card-img-top" alt="foto CV">
         <div class="card-body" style="padding: 8px;">
-          <h5 class="card-title">Kevin Gonzalez</h5>
+          <h4 class="card-title1">Kevin Gonzalez</h4>
           <p class="card-text">Full Stack Developer Jr</p>
           <p class="card-text">Buenos Aires - Argentina</p>
         </div>
@@ -121,39 +127,38 @@
       </div> 
     </div>
     <div class="card mb-3">
-      <div class="card-body bg-light" style="border: 1px solid grey; border-radius: 20px;">
-        <section class="text-center">
+      <div class="bg-light" style="border: 1px solid grey; border-radius: 20px;">
+        <div id="contacto">
           <form action="" method="post">
             <h1>Contáctame</h1>
            <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Ingresar nombre">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Ingresar nombre" required>
             <label for="floatingInput">Nombre</label>
            </div>
            <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="Ingresar apellido">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Ingresar apellido" required>
             <label for="floatingInput">Apellido</label>
            </div>
            <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
             <label for="floatingInput">Email</label>
            </div>
            <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
             <label for="floatingPassword">Password</label>
            </div>
            <div class="form-floating">
-            <textarea class="form-control mb-3" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Dejame tu mensaje</label>
+            <textarea class="form-control mb-3" placeholder="Deje su mensaje" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Mensaje</label>
            </div>
             <input type="submit" value="Enviar">
-            <button type="button" id="fondo">Cambiar fondo</button>
+            <button id="fondo" type="button">Cambiar fondo</button>
           </form>
-         </section>
+        </div>
         </div>
     </div>
-    
- 
-    <script> src="js/function.js"</script>
+    <footer id="pie">Derechos Reservados &copy; 2023-2024
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 </body>
